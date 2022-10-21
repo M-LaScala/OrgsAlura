@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.335" />
+        <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/drawable/ic_action_add.xml" value="0.1695" />
         <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/drawable/ic_launcher_background.xml" value="0.33" />
+        <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/drawable/plano_de_fundo_produto.xml" value="0.124" />
         <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/layout/activity_formulario_produto.xml" value="0.33" />
         <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/layout/activity_lista_produtos.xml" value="0.2509057971014493" />
         <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/layout/produto_item.xml" value="0.33" />
+        <entry key="..\:/Users/Matheus/AndroidStudioProjects/Orgs/app/src/main/res/layout/produto_item.xml" value="0.25" />
       </map>
     </option>
   </component>
