@@ -2,8 +2,11 @@ package com.example.orgs.ui.recyclerview.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
+import com.example.orgs.R
 import com.example.orgs.databinding.ProdutoItemBinding
 import com.example.orgs.model.Produto
 import java.math.BigDecimal
@@ -28,6 +31,20 @@ class ListaProdutosAdapter(
             val valor = binding.produtoItemValor
             val valorEmMoeda: String = formataParaMoedaBR(produto.valor)
             valor.text = valorEmMoeda
+
+            val visibilidade = if(produto.imagem != null){
+                View.VISIBLE
+            } else {
+                View.GONE
+            }
+
+            binding.imageProduto.visibility = visibilidade
+
+            binding.imageProduto.load(produto.imagem){
+                fallback(R.drawable.erro)
+                error(R.drawable.erro)
+            }
+
         }
 
         private fun formataParaMoedaBR(valor: BigDecimal): String {
